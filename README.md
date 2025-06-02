@@ -14,14 +14,17 @@ Before anything else is said:
 `git <command> --help` (and a good LLM) is your friend
 
 
-## Single Developer
+## Multiple Developers
 
-Base workflow, Single Branch, Local and Remote Repo
+* Collaborate using one branch, multiple developers
+* Central repo in GitHub, local repos at developers' machines
 
-### Preparation (not need if clone from remote repo/GitHub)
-
-* Connect local to remote repo via name <remotename> `git remote add <remotename> <GitHub repo url>`
-
+### Get Changes from remote
+1.`git status` and `git diff` -> see if all is ready
+2. `git pull`
+  1. No problems: automatic merge or no changes -> continue with do local changes
+  2. Merge problems: automatic merge files for some files and locations  -> resolve conflicts before continuing
+	
 ### Do changes
 1. <do changes> in editor
 2. See changes: `git status` and `git diff`
