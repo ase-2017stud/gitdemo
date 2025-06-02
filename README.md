@@ -20,7 +20,7 @@ Before anything else is said:
 * Central repo in GitHub, local repos at developers' machines
 
 ### Get Changes from remote
-1.`git status` and `git diff` -> see if all is ready
+1.`git status` and `git diff` and `git log` -> see if all is ready
 2. `git pull`
   1. No problems: automatic merge or no changes -> continue with do local changes
   2. Merge problems: automatic merge files for some files and locations  -> resolve conflicts before continuing
