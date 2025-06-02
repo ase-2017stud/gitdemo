@@ -27,7 +27,7 @@ Before anything else is said:
 	
 ### Do changes
 1. <do changes> in editor
-2. See changes: `git status` and `git diff`
+2. See changes: `git status` and `git log` and `git diff`
 3. Repeat 1. and 2.
 4. Prepare changes, prevent loss of changes: `git add <files>`
 5. Repeat 1. - 4.
