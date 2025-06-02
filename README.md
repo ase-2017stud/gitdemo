@@ -47,3 +47,4 @@ Before anything else is said:
 6. Make commit in local repository from changes: `git commit`
 7. Repeat 1. - 6.
 8. "Publish" aka push your work to remote repo: `git push`
+9. Sync with repo 
