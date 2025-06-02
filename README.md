@@ -16,7 +16,7 @@ Before anything else is said:
 
 ## Single Developer
 
-Base workflow, Single branch, Local + Remote Repo
+Base workflow, single branch, local + remote repo
 
 ### Preparation (not need if clone from remote repo/GitHub)
 
